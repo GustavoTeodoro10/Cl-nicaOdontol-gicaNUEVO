@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dentista em Mauá | Nuevo Odontologia Integrada</title>
+  <meta name="description" content="Odontologia completa em Mauá-SP: implantes, canal, próteses, ortodontia e harmonização facial. Atendimento personalizado pela Dra. Marina Barrionuevo e Dr. Maurício Giralt. Agende pelo WhatsApp.">
+
+  <link rel="canonical" href="https://clinicanuevo.com.br/">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Dentista em Mauá | Nuevo Odontologia Integrada">
+  <meta property="og:description" content="Odontologia completa em Mauá-SP. Cuide do seu sorriso com quem genuinamente entende. Agende pelo WhatsApp.">
+  <meta property="og:image"       content="https://clinicanuevo.com.br/assets/img/og-image.jpg">
+  <meta property="og:url"         content="https://clinicanuevo.com.br/">
+  <meta property="og:site_name"   content="Nuevo Odontologia Integrada">
+  <meta property="og:locale"      content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Dentista em Mauá | Nuevo Odontologia Integrada">
+  <meta name="twitter:description" content="Odontologia completa em Mauá-SP. Agende pelo WhatsApp.">
+  <meta name="twitter:image"       content="https://clinicanuevo.com.br/assets/img/og-image.jpg">
+
+  <!-- Favicons (Gate 4) -->
+  <link rel="icon"             type="image/x-icon"    href="assets/img/favicon.ico">
+  <link rel="icon"             type="image/png" sizes="32x32"  href="assets/img/favicon-32.png">
+  <link rel="icon"             type="image/png" sizes="512x512" href="assets/img/icon-512.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- GoatCounter -->
+  <script data-goatcounter="https://teocode.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <!-- Tailwind CDN + config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/tailwind-config.js"></script>
+
+  <!-- CSS customizado -->
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Nuevo Odontologia Integrada",
+    "image": "https://clinicanuevo.com.br/assets/img/og-image.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Riachuelo, 853",
+      "addressLocality": "Mauá",
+      "addressRegion": "SP",
+      "postalCode": "09360-030",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.68195,
+      "longitude": -46.4566297
+    },
+    "telephone": "+5511916156983",
+    "openingHours": [
+      "Mo 10:00-19:00",
+      "Tu 08:00-19:00",
+      "We 08:00-19:00",
+      "Th 08:00-18:00",
+      "Fr 09:00-18:00",
+      "Sa 08:00-12:00"
+    ],
+    "areaServed": "Mauá, SP",
+    "sameAs": [
+      "https://www.instagram.com/nuevo_odontologia_"
+    ],
+    "url": "https://clinicanuevo.com.br/"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ── NAV ───────────────────────────────────────────────────────────────── -->
+  <header id="main-nav" class="nav" role="banner">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <a href="#" aria-label="Nuevo Odontologia — página inicial" class="flex items-center gap-2">
+        <img src="assets/img/logo.webp" alt="" width="36" height="36" class="h-9 w-auto" aria-hidden="true">
+        <span class="nav-logo-text">NUEVO</span>
+      </a>
+
+      <!-- Links desktop -->
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#servicos"    class="nav-link">Serviços</a>
+        <a href="#equipe"      class="nav-link">Equipe</a>
+        <a href="#avaliacoes"  class="nav-link">Avaliações</a>
+        <a href="#localizacao" class="nav-link">Localização</a>
+      </nav>
+
+      <!-- CTA desktop + hamburger -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20Nuevo%20Odontologia."
+           class="btn-primary nav-cta"
+           data-gc-event="cta-nav"
+           target="_blank" rel="noopener noreferrer">
+          Agendar consulta
+        </a>
+
+        <button id="nav-toggle"
+                class="nav-hamburger"
+                aria-label="Abrir menu de navegação"
+                aria-expanded="false"
+                aria-controls="nav-menu">
+          <svg class="icon-open w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg class="icon-close w-6 h-6" style="display:none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu mobile -->
+    <div id="nav-menu" class="nav-mobile" aria-hidden="true">
+      <div class="nav-mobile-inner">
+        <a href="#servicos"    class="nav-mobile-link">Serviços</a>
+        <a href="#equipe"      class="nav-mobile-link">Equipe</a>
+        <a href="#avaliacoes"  class="nav-mobile-link">Avaliações</a>
+        <a href="#localizacao" class="nav-mobile-link">Localização</a>
+        <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20Nuevo%20Odontologia."
+           class="btn-primary self-start mt-2"
+           data-gc-event="cta-nav-mobile"
+           target="_blank" rel="noopener noreferrer">
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ──────────────────────────────────────────────────────────── -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+
+          <p class="eyebrow hero-eyebrow">Clínica Odontológica · Mauá, SP</p>
+
+          <h1 id="hero-title" class="hero-title hero-title">
+            Sorria sem medo
+            <span class="text-gold">do futuro.</span>
+          </h1>
+
+          <p class="hero-subtitle hero-subtitle">
+            Odontologia completa em Mauá. Atendimento personalizado por quem genuinamente cuida do seu sorriso.
+          </p>
+
+          <div class="hero-actions hero-actions">
+            <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20Nuevo%20Odontologia."
+               class="btn-primary"
+               data-gc-event="cta-hero"
+               target="_blank" rel="noopener noreferrer">
+              Agendar pelo WhatsApp
+            </a>
+
+            <div class="rating-badge" aria-label="Avaliação de 4,9 estrelas no Google, com 104 avaliações">
+              <div class="rating-stars" aria-hidden="true">
+                <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <span class="rating-text"><strong>4,9</strong> · 104 avaliações no Google</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVIÇOS ──────────────────────────────────────────────────────── -->
+    <section id="servicos" class="services-section" aria-labelledby="sec-servicos-titulo">
+      <div class="section-container">
+        <div class="section-header" data-reveal>
+          <h2 id="sec-servicos-titulo" class="section-title">Cuidado completo para o seu sorriso</h2>
+          <p class="section-subtitle">Tratamentos modernos e personalizados para cada necessidade e etapa da vida.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card" data-reveal data-reveal-delay="100">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C8.7 2 6 4.7 6 8c0 2.3 1.1 4.4 2.9 5.7L10 21h4l1.1-7.3C16.9 12.4 18 10.3 18 8c0-3.3-2.7-6-6-6Z"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Implante Dentário</h3>
+            <p class="service-desc">Solução definitiva para dentes perdidos, com aparência e função naturais.</p>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="200">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/>
+                <path d="M18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Clareamento Dental</h3>
+            <p class="service-desc">Sorriso mais claro e luminoso com procedimento seguro e supervisionado.</p>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="300">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Ortodontia</h3>
+            <p class="service-desc">Alinhamento dental com aparelhos fixos, móveis ou alinhadores invisíveis.</p>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="100">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Próteses Dentárias</h3>
+            <p class="service-desc">Coroas, facetas e reabilitações orais completas e personalizadas.</p>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="200">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                <path d="M9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75s.168-.75.375-.75.375.336.375.75Zm5.25 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Z" fill="currentColor" stroke="none"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Harmonização Facial</h3>
+            <p class="service-desc">Botox e preenchimento para realçar a beleza natural do rosto com segurança.</p>
+          </article>
+
+          <article class="service-card" data-reveal data-reveal-delay="300">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"/>
+              </svg>
+            </div>
+            <h3 class="service-name">Canal (Endodontia)</h3>
+            <p class="service-desc">Tratamento do canal com conforto, precisão e tecnologia de ponta.</p>
+          </article>
+        </div>
+
+        <div class="section-cta-wrap" data-reveal>
+          <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Nuevo%20Odontologia."
+             class="btn-primary"
+             data-gc-event="cta-servicos"
+             target="_blank" rel="noopener noreferrer">
+            Agendar avaliação
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EQUIPE ──────────────────────────────────────────────────────────── -->
+    <section id="equipe" class="equipe-section" aria-labelledby="sec-equipe-titulo">
+      <div class="section-container">
+        <div class="section-header" data-reveal>
+          <p class="eyebrow">Nossa equipe</p>
+          <h2 id="sec-equipe-titulo" class="section-title">Conheça quem cuida do seu sorriso</h2>
+          <p class="section-subtitle">Profissionais especializados e dedicados ao seu bem-estar.</p>
+        </div>
+
+        <div class="equipe-grid">
+          <article class="dentist-card" data-reveal data-reveal-delay="100">
+            <div class="dentist-photo-wrap">
+              <img src="assets/img/dra-marina.webp" alt="Dra. Marina Barrionuevo, cirurgiã-dentista" width="400" height="534" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+            </div>
+            <div class="dentist-body">
+              <p class="dentist-name">Dra. Marina Barrionuevo</p>
+              <p class="dentist-cro">CRO-SP 143.596</p>
+              <p class="dentist-bio">Comprometida com um atendimento humanizado e resultados que transformam sorrisos há mais de uma década.</p>
+            </div>
+          </article>
+
+          <article class="dentist-card" data-reveal data-reveal-delay="200">
+            <div class="dentist-photo-wrap">
+              <img src="assets/img/dr-mauricio.webp" alt="Dr. Maurício Giralt, cirurgião-dentista" width="400" height="534" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+            </div>
+            <div class="dentist-body">
+              <p class="dentist-name">Dr. Maurício Giralt</p>
+              <p class="dentist-cro">CRO-SP 67.234</p>
+              <p class="dentist-bio">Dedicado a oferecer o melhor cuidado com técnica avançada e atenção individualizada a cada paciente.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta-wrap" data-reveal>
+          <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20equipe%20da%20Nuevo%20Odontologia."
+             class="btn-primary"
+             data-gc-event="cta-equipe"
+             target="_blank" rel="noopener noreferrer">
+            Falar com a equipe
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CARROSSEL DE SORRISOS ───────────────────────────────────────────── -->
+    <section id="sorrisos" class="carousel-section" aria-labelledby="sec-sorrisos-titulo">
+      <div class="carousel-header">
+        <h2 id="sec-sorrisos-titulo" class="section-title" data-reveal>Sorrisos que conquistamos</h2>
+        <p class="section-subtitle" data-reveal data-reveal-delay="100">Cada sorriso conta uma história de cuidado e confiança.</p>
+      </div>
+
+      <div class="carousel-track-wrap">
+        <div id="carousel-sorrisos" class="carousel-track" role="list" aria-label="Fotos de pacientes">
+          <div class="carousel-item" role="listitem">
+            <img src="assets/img/sorriso-1.webp" alt="Resultado de tratamento odontológico — sorriso de paciente" width="600" height="800" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+          </div>
+          <div class="carousel-item" role="listitem">
+            <img src="assets/img/sorriso-2.webp" alt="Resultado de tratamento odontológico — sorriso de paciente" width="600" height="800" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+          </div>
+          <div class="carousel-item" role="listitem">
+            <img src="assets/img/sorriso-3.webp" alt="Resultado de tratamento odontológico — sorriso de paciente" width="600" height="800" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+          </div>
+          <div class="carousel-item" role="listitem">
+            <img src="assets/img/sorriso-4.webp" alt="Resultado de tratamento odontológico — sorriso de paciente" width="600" height="800" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+          </div>
+          <div class="carousel-item" role="listitem">
+            <img src="assets/img/sorriso-5.webp" alt="Resultado de tratamento odontológico — sorriso de paciente" width="600" height="800" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── AVALIAÇÕES ─────────────────────────────────────────────────────── -->
+    <section id="avaliacoes" class="reviews-section" aria-labelledby="sec-aval-titulo">
+      <div class="section-container">
+        <div class="section-header" data-reveal>
+          <p class="eyebrow">O que dizem</p>
+          <h2 id="sec-aval-titulo" class="section-title">Avaliações reais de quem nos visitou</h2>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card" data-reveal data-reveal-delay="100">
+            <div class="review-stars" aria-label="5 de 5 estrelas">
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <p class="review-text">"Adoro o atendimento daqui. Faz anos que frequento esse consultório. Todos são muito dedicados e cuidadosos, além de profissionais de qualidade. Tirei meu aparelho aqui e estou colocando minha filha agora também! Super indico!!"</p>
+            <p class="review-author">Nayara Stevano</p>
+            <p class="review-date">Paciente da clínica</p>
+          </article>
+
+          <article class="review-card" data-reveal data-reveal-delay="200">
+            <div class="review-stars" aria-label="5 de 5 estrelas">
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <p class="review-text">"Excelente atendimento pela Dra. Marina, profissional bem qualificada, equipe comprometida!! Dou 10 pra todos da clínica!!"</p>
+            <p class="review-author">Venceu Alves</p>
+            <p class="review-date">há 11 meses</p>
+          </article>
+
+          <article class="review-card" data-reveal data-reveal-delay="300">
+            <div class="review-stars" aria-label="5 de 5 estrelas">
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <p class="review-text">"O Dr. Maurício é excelente! Me senti muito bem atendida."</p>
+            <p class="review-author">Mayla Castro Faganello</p>
+            <p class="review-date">há 1 ano</p>
+          </article>
+        </div>
+
+        <div class="reviews-cta" data-reveal>
+          <a href="https://www.google.com/maps/place/Cl%C3%ADnica+Odontol%C3%B3gica+NUEVO/@-23.68195,-46.4566297,17z"
+             class="link-google"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Ver todas as 104 avaliações no Google Maps (abre em nova aba)">
+            Ver todas as 104 avaliações no Google
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── LOCALIZAÇÃO ─────────────────────────────────────────────────────── -->
+    <section id="localizacao" class="location-section" aria-labelledby="sec-local-titulo">
+      <div class="section-container">
+        <div class="section-header" data-reveal>
+          <h2 id="sec-local-titulo" class="section-title">Onde nos encontrar</h2>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-map-wrap" data-reveal>
+            <iframe
+              src="https://maps.google.com/maps?q=R.+Riachuelo,+853,+Mau%C3%A1,+SP,+09360-030&output=embed&z=16"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa com localização da Nuevo Odontologia — R. Riachuelo, 853, Mauá-SP"
+              aria-label="Mapa do Google com a localização da clínica">
+            </iframe>
+          </div>
+
+          <div class="location-info" data-reveal data-reveal-delay="200">
+            <div class="location-info-address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              <address>R. Riachuelo, 853<br>Mauá, SP 09360-030</address>
+            </div>
+
+            <h3 class="hours-title">Horários de atendimento</h3>
+            <p class="hours-note">* Confirmar o horário de segunda-feira com a clínica.</p>
+            <table class="hours-table">
+              <caption class="sr-only">Horários de funcionamento da Nuevo Odontologia</caption>
+              <tbody>
+                <tr><td>Segunda</td><td>10h00 – 19h00 *</td></tr>
+                <tr><td>Terça</td><td>08h00 – 19h00</td></tr>
+                <tr><td>Quarta</td><td>08h00 – 19h00</td></tr>
+                <tr><td>Quinta</td><td>08h00 – 18h00</td></tr>
+                <tr><td>Sexta</td><td>09h00 – 18h00</td></tr>
+                <tr><td>Sábado</td><td>08h00 – 12h00</td></tr>
+                <tr><td>Domingo</td><td>Fechado</td></tr>
+              </tbody>
+            </table>
+
+            <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20confirmar%20hor%C3%A1rio%20e%20localiza%C3%A7%C3%A3o%20da%20Nuevo%20Odontologia."
+               class="btn-primary location-cta"
+               data-gc-event="cta-localizacao"
+               target="_blank" rel="noopener noreferrer">
+              Falar pelo WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA FINAL ───────────────────────────────────────────────────────── -->
+    <section id="contato" class="cta-section" aria-labelledby="sec-cta-titulo">
+      <div class="cta-inner">
+        <h2 id="sec-cta-titulo" class="cta-title" data-reveal>Comece hoje a cuidar do seu sorriso</h2>
+        <p class="cta-subtitle" data-reveal data-reveal-delay="100">Agende uma consulta e dê o primeiro passo para o sorriso que você merece.</p>
+        <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20minha%20consulta%20na%20Nuevo%20Odontologia."
+           class="btn-cta-white"
+           data-gc-event="cta-contato"
+           target="_blank" rel="noopener noreferrer"
+           data-reveal data-reveal-delay="200">
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── RODAPÉ ──────────────────────────────────────────────────────────── -->
+  <footer class="footer" aria-label="Rodapé">
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <!-- Marca -->
+        <div>
+          <p class="footer-brand-text"><img src="assets/img/logo.webp" alt="" width="28" height="28" class="inline-block mr-2 align-middle" aria-hidden="true" style="vertical-align:middle;">NUEVO</p>
+          <p class="footer-tagline">Odontologia completa em Mauá. Atendimento personalizado para cada sorriso.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/nuevo_odontologia_" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Nuevo Odontologia">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/5511916156983" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Nuevo Odontologia">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Links rápidos -->
+        <div>
+          <p class="footer-col-title">Links rápidos</p>
+          <ul class="footer-links">
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+          </ul>
+        </div>
+
+        <!-- Contato -->
+        <div>
+          <p class="footer-col-title">Contato</p>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <a href="https://wa.me/5511916156983" target="_blank" rel="noopener noreferrer">(11) 91615-6983</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <address>R. Riachuelo, 853<br>Mauá, SP</address>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Nuevo Odontologia Integrada. Todos os direitos reservados.</p>
+        <p class="footer-credit">Site desenvolvido por <a href="https://teocode.com.br/" target="_blank" rel="noopener noreferrer">TeoCode</a> · © 2026 TeoCode</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5511916156983?text=Ol%C3%A1!%20Quero%20agendar%20uma%20consulta%20na%20Nuevo%20Odontologia."
+     class="whatsapp-float"
+     data-gc-event="cta-flutuante"
+     aria-label="Falar pelo WhatsApp"
+     target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
